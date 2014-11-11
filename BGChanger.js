@@ -80,16 +80,17 @@ function awesomethings(data) {
     }
     if (commands == "/loadpos"){
         var saveName = prompt("What is the name of your save file?");
-        backgroundurl = (JSON.parse(localStorage.getItem(saveName)))[0];
-        playerWhereX = (JSON.parse(localStorage.getItem(saveName)))[1];
-        playerWhereY = (JSON.parse(localStorage.getItem(saveName)))[2];
-        voteWhereX = (JSON.parse(localStorage.getItem(saveName)))[3];
-        voteWhereY = (JSON.parse(localStorage.getItem(saveName)))[4];
-        joinWhereX = (JSON.parse(localStorage.getItem(saveName)))[5];
-        joinWhereY = (JSON.parse(localStorage.getItem(saveName)))[6];
-        avatarsWhereX = (JSON.parse(localStorage.getItem(saveName)))[7];
-        avatarsWhereY = (JSON.parse(localStorage.getItem(saveName)))[8];
-        loopKeeppos = (JSON.parse(localStorage.getItem(saveName)))[9];
+        backgroundurl = (JSON.parse(localStorage.getItem(saveName))[0]);
+        playerWhereX = (JSON.parse(localStorage.getItem(saveName))[1]);
+        playerWhereY = (JSON.parse(localStorage.getItem(saveName))[2]);
+        voteWhereX = (JSON.parse(localStorage.getItem(saveName))[3]);
+        voteWhereY = (JSON.parse(localStorage.getItem(saveName))[4]);
+        joinWhereX = (JSON.parse(localStorage.getItem(saveName))[5]);
+        joinWhereY = (JSON.parse(localStorage.getItem(saveName))[6]);
+        avatarsWhereX = (JSON.parse(localStorage.getItem(saveName))[7]);
+        avatarsWhereY = (JSON.parse(localStorage.getItem(saveName))[8]);
+        loopKeeppos = (JSON.parse(localStorage.getItem(saveName))[9]);
+        trigger()
     }
 }
 function loopCheck() {
@@ -103,3 +104,12 @@ function loopCheck() {
             }
         }, 1000)
     }
+loopCheck();
+
+function trigger(){
+    document.getElementsByClassName("room-background")[0].setAttribute('style', 'background: url(' + backgroundurl + ')');
+    document.getElementById("playback").setAttribute('style', 'left:' + playerWhereX + 'px; top: ' + playerWhereY + 'px;');
+    document.getElementById("avatars-container").setAttribute('style', 'left: ' + avatarsWhereX + 'px; top: ' + avatarsWhereY + 'px;');
+    document.getElementById("dj-button").setAttribute('style', 'left: ' + joinWhereX + 'px; top: ' + voteWhereY + 'px;');
+    document.getElementById("vote").setAttribute('style', 'left: ' + voteWhereX + 'px; top: ' + voteWhereY + 'px;');
+}
