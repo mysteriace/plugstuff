@@ -79,7 +79,7 @@ function awesomethings(data) {
         localStorage.setItem(saveName, JSON.stringify(umcookiesBgArray))
     }
     if (commands == "/loadpos"){
-        var saveName = prompt("What is the name of your save file?");
+        var saveName = prompt("What is the name of your save file?", default);
         backgroundurl = (JSON.parse(localStorage.getItem(saveName))[0]);
         playerWhereX = (JSON.parse(localStorage.getItem(saveName))[1]);
         playerWhereY = (JSON.parse(localStorage.getItem(saveName))[2]);
