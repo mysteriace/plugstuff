@@ -1,4 +1,4 @@
-##Description
+##What does this do?
 This is a script to change the background of plug.dj and do a few other things as well which are listed and described below.
 
 ## Installation
@@ -28,11 +28,11 @@ The basic idea is that you paste the line above into the URL or Location section
 
 ####For Chrome
 1- Create a new bookmark, this can be done by pressing CTRL+SHIFT+O then right clicking in the white space and selecting 'New Page'
+
 [![CHROME](http://i.imgur.com/LeijOKc.png)](https://github.com/umcookies/plugstuff)
 
 -In the name box you may call the bookmark anything you like, I personally call it BGChanger
-
--In the location box you MUST enter the script exactly as shown above
+-In the URL box you MUST enter the script exactly as shown above
 
 2- If you have done everything correctly your bookmark will look like this (Remember you can call the bookmark whatever you'd like)
 
