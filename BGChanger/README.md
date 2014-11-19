@@ -38,3 +38,15 @@ The basic idea is that you paste the line above into the URL or Location section
 2- If you have done everything correctly your bookmark will look like this (Remember you can call the bookmark whatever you'd like)
 
 [![CHROME](http://i.imgur.com/BvAGf6n.png)](https://github.com/umcookies/plugstuff)
+
+
+##Ok, so how do I use it?
+That's a fantastic question, I'm glad you asked
+
+The script is built around the idea of being able to modify as much as possible on the fly via commands that you enter into chat, so I had better create a list of the commands that you can use, how you use them and what they actually do.
+#####Commands
+
+
+|Command |  Description |
+|:------:|:--------------------------------------:|
+|/background| Opens a popup that allows you to enter a URL to a picture hosted somewhere on the internet |
