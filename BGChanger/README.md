@@ -32,6 +32,7 @@ The basic idea is that you paste the line above into the URL or Location section
 [![CHROME](http://i.imgur.com/LeijOKc.png)](https://github.com/umcookies/plugstuff)
 
 -In the name box you may call the bookmark anything you like, I personally call it BGChanger
+
 -In the URL box you MUST enter the script exactly as shown above
 
 2- If you have done everything correctly your bookmark will look like this (Remember you can call the bookmark whatever you'd like)
