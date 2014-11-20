@@ -2,7 +2,7 @@
  * Created by Umcookies on a Potato.
  */
 API.on(API.chatLog("Background Changer loaded", 1));
-API.on(API.chatLog("If this is the first time you're using this script, please use /help"));
+API.on(API.chatLog("If this is the first time you're using this script, please use /cmd"));
 API.on(API.CHAT_COMMAND, awesomethings);
 //variables
 var backgroundurl = "https://cdn.plug.dj/_/static/images/community/background.ae45269504d5329fb78e47e9bd4be2da0698f284.jpg";
@@ -92,7 +92,7 @@ function awesomethings(data) {
         loopKeeppos = (JSON.parse(localStorage.getItem(saveName))[9]);
         trigger()
     }
-    if (commands == "/help"){
+    if (commands == "/cmd"){
         API.chatLog("Please visit https://github.com/umcookies/plugstuff/tree/master/BGChanger#ok-so-how-do-i-use-it", 1)
     }
 }
