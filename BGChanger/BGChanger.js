@@ -1,8 +1,8 @@
 /**
  * Created by Umcookies on a Potato.
  */
-API.on(API.chatLog("Use /background to set your new background and /player /vote /join /avatars to change the position of the respective UI elements", 1));
-API.on(API.chatLog("You can use /move if any UI part's move, it wont prompt for any inputs. You can also use /keeppos which will check every second if a UI element has moved (recommended)"));
+API.on(API.chatLog("Background Changer loaded", 1));
+API.on(API.chatLog("If this is the first time you're using this script, please use /help"));
 API.on(API.CHAT_COMMAND, awesomethings);
 //variables
 var backgroundurl = "https://cdn.plug.dj/_/static/images/community/background.ae45269504d5329fb78e47e9bd4be2da0698f284.jpg";
@@ -91,6 +91,9 @@ function awesomethings(data) {
         avatarsWhereY = (JSON.parse(localStorage.getItem(saveName))[8]);
         loopKeeppos = (JSON.parse(localStorage.getItem(saveName))[9]);
         trigger()
+    }
+    if (commands == "/help"){
+        API.chatLog("Please visit https://github.com/umcookies/plugstuff/tree/master/BGChanger#ok-so-how-do-i-use-it", 1)
     }
 }
 function loopCheck() {
