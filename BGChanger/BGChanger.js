@@ -50,7 +50,7 @@ function awesomethings(data) {
         document.getElementById("vote").setAttribute('style', 'left: ' + voteWhereX + 'px; top: ' + voteWhereY + 'px;');
     }
     if (commands == "/umcookies") {
-        document.getElementsByClassName("room-background")[0].setAttribute('style', 'background: url("https://www.dropbox.com/sh/q9miyunbh5mz61b/AAB4-fKdq7A00LBInMzB0o4da/31151e82a4be9d4156d83d7f609b8059.png?dl=1")');
+        document.getElementsByClassName("room-background")[0].setAttribute('style', 'background: url("https://www.dropbox.com/s/buoi30nihb0het5/31151e82a4be9d4156d83d7f609b8059.png?dl=1")');
         playerWhereX = "12";
         playerWhereY = "54";
         voteWhereX = "0";
