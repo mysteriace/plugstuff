@@ -72,6 +72,9 @@ Manager
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
+|!announcetoggle | |Turns announcement messages on and off |
+|!announcetimer | X |Adjusts how often the announcement messages are sent too chat |
+|!announceman | |Forces the announcement message too trigger |
 |!clearchat | |clears the chat |
 |!clearqueue | | Wipes the queue of movements (ie, moving / adding / removing) |
 |!dclimit | X | sets the length that people can be off the waitlist before being unable to use !dc |
