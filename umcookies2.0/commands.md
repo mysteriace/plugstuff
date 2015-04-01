@@ -23,6 +23,7 @@ Regular User
 |!op | | links to the an up to date list of all of the songs currently on the blacklist |
 |!rules | | links to the rules |
 |!theme | | links to the accepted genre list |
+|!ts | | Provides the address to our teamspeak server |
 |!website | | links to the nightcore-331 forums |
 
 Resident DJ
