@@ -31,6 +31,7 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
+|!laghelp | (@user) | Links a picture with some common things you can do to help with plug related lag |
 |!link | | Links the current song playing, reguardless if they are the DJ or not |
 |!eta | (@user) | Allows you to check the ETA of other users on the waitlist or yourself |
 |!ping | | Play ping pong with the bot! (but seriously, please don't) |
@@ -65,6 +66,7 @@ Bouncer+
 |!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
 |!move | @user X | moves user to position X on the waitlist |
 |!remove | @user | remove user from the waitlist |
+|!swap | @user @user | swaps two users, at least one must be in the waitlist, both names must be different |
 |!unlock | | unlock the waitlist |
 |!welcome | | toggle the welcome message on user join |
 
