@@ -31,11 +31,13 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
+|!bouncer | (@user) | Links to the bouncer app sub forum |
 |!laghelp | (@user) | Links a picture with some common things you can do to help with plug related lag |
 |!link | | Links the current song playing, reguardless if they are the DJ or not |
 |!eta | (@user) | Allows you to check the ETA of other users on the waitlist or yourself |
 |!ping | | Play ping pong with the bot! (but seriously, please don't) |
 |!picture | (@user) | Provides a link with various versions of the thumbnail to download |
+|!rdj | (@user) | Links to the rdj app sub forum |
 |!mehrule | (@user) | Calculates the number of meh's needed to skip the current song and explains rule #8 |
 |!xp | (@user) | explains the XP system and how the cap works |
 
